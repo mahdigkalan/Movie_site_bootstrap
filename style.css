@@ -1,0 +1,55 @@
+.black-color{
+    background-color: #050505;
+}
+.gray-color{
+    background-color: #242424;
+}
+.orange-color{
+    background-color: #EA8100;
+}
+.border-radius{
+    border-radius: 50px;
+}
+.border-radius-25{
+    border-radius: 25px;
+}
+.pointer{
+    cursor: pointer;
+}
+.background{
+    background-image: url(pictures/SuggestionBG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn-outline-orange{
+    color:#EA8100;
+    background-color:transparent;
+    background-image:none;
+    border-color:#EA8100
+}
+.btn-outline-orange:hover{
+    color:#fff;
+    background-color:#EA8100;
+    border-color:#EA8100
+}
+.btn-outline-orange.focus,
+.btn-outline-orange:focus{
+    box-shadow:0 0 0 .2rem #EA8100
+}
+.btn-outline-orange.disabled,
+.btn-outline-orange:disabled{
+    color:#EA8100;
+    background-color:transparent
+}
+.btn-outline-orange:not(:disabled):not(.disabled).active,
+.btn-outline-orange:not(:disabled):not(.disabled):active,
+.show>.btn-outline-orange.dropdown-toggle{
+    color:#fff;
+    background-color:#EA8100;
+    border-color:#EA8100
+}
+.btn-outline-orange:not(:disabled):not(.disabled).active:focus,
+.btn-outline-orange:not(:disabled):not(.disabled):active:focus,
+.show>.btn-outline-orange.dropdown-toggle:focus{
+    box-shadow:0 0 0 .2rem #EA8100
+}
